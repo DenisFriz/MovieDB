@@ -1,0 +1,55 @@
+{
+  "page": 1,
+  "results": [
+    {
+      "adult": false,
+      "backdrop_path": "/7h6TqPB3ESmjuVbxCxAeB1c9OB1.jpg",
+      "genre_ids": [27, 18, 878],
+      "id": 933260,
+      "original_language": "en",
+      "original_title": "The Substance",
+      "overview": "A fading celebrity decides to use a black market drug, a cell-replicating substance that temporarily creates a younger, better version of herself.",
+      "popularity": 4964.05,
+      "poster_path": "/lqoMzCcZYEFK729d6qzt349fB4o.jpg",
+      "release_date": "2024-09-07",
+      "title": "The Substance",
+      "video": false,
+      "vote_average": 7.4,
+      "vote_count": 510
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/yDHYTfA3R0jFYba16jBB1ef8oIt.jpg",
+      "genre_ids": [28, 35, 878],
+      "id": 533535,
+      "original_language": "en",
+      "original_title": "Fake Action Movie",
+      "overview": "An action-packed adventure where a group of misfits must save the world from an alien invasion.",
+      "popularity": 3021.78,
+      "poster_path": "/xyz123abc456.jpg",
+      "release_date": "2023-07-15",
+      "title": "Fake Action Movie",
+      "video": false,
+      "vote_average": 6.9,
+      "vote_count": 300
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/xi1VSt3DtkevUmzCx2mNlCoDe74.jpg",
+      "genre_ids": [35, 14, 27],
+      "id": 917496,
+      "original_language": "en",
+      "original_title": "The Haunted Comedy",
+      "overview": "A haunted house turns into the setting for a hilarious comedy where ghosts are just misunderstood pranksters.",
+      "popularity": 1984.55,
+      "poster_path": "/abc789def456.jpg",
+      "release_date": "2022-10-31",
+      "title": "The Haunted Comedy",
+      "video": false,
+      "vote_average": 5.8,
+      "vote_count": 200
+    }
+  ],
+  "total_pages": 46544,
+  "total_results": 930880
+}
