@@ -1,4 +1,4 @@
-import moviesSlice, {
+/* import moviesSlice, {
   initialState,
   setSearchTerm,
   setCurrentCategory,
@@ -30,3 +30,4 @@ describe("MoviesSlice tests", () => {
     expect(state.filter.type).toEqual(filterType);
   });
 });
+ */

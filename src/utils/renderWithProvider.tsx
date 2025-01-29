@@ -1,4 +1,4 @@
-import { render } from "@testing-library/react";
+/* import { render } from "@testing-library/react";
 import { Provider } from "react-redux";
 import { setupStore } from "@redux/store";
 import React from "react";
@@ -24,3 +24,4 @@ export function renderWithProviders(
     ...render(component, { wrapper: Wrapper, ...renderOptions }),
   };
 }
+ */

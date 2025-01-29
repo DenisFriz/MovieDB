@@ -1,4 +1,4 @@
-// renderWithProviders.tsx
+/* // renderWithProviders.tsx
 import { render } from "@testing-library/react";
 import { Provider } from "react-redux";
 import { MemoryRouter } from "react-router-dom";
@@ -16,3 +16,4 @@ const renderRouterProvider = (ui, { initialState, ...renderOptions } = {}) => {
 };
 
 export default renderRouterProvider;
+ */

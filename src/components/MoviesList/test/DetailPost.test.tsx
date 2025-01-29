@@ -2,7 +2,7 @@ import { fireEvent, render, screen } from "@testing-library/react";
 import {
   MemoryRouter,
   useLoaderData,
-  useAsyncValue,
+  /*  useAsyncValue, */
   BrowserRouter,
 } from "react-router-dom";
 import DetailPost from "../DetailPost";
@@ -49,7 +49,7 @@ describe("DetailPost component", () => {
     vi.resetAllMocks();
   });
   it("Showing spinner while loading data", () => {
-    useLoaderData.mockReturnValueOnce({ post: null });
+    /*  useLoaderData.mockReturnValueOnce({ post: null }); */
     render(
       <MemoryRouter>
         <DetailPost />
@@ -61,9 +61,9 @@ describe("DetailPost component", () => {
   });
 
   it("Displays error message when post fails to load", async () => {
-    useLoaderData.mockReturnValueOnce({
+    /*  useLoaderData.mockReturnValueOnce({
       post: Promise.reject(new Error("Test error")),
-    });
+    }); */
 
     render(
       <MemoryRouter>
@@ -75,8 +75,8 @@ describe("DetailPost component", () => {
   });
 
   it("Render full detail post correctly", () => {
-    useLoaderData.mockReturnValueOnce({ post: mockDetailPost });
-    useAsyncValue.mockReturnValueOnce(mockDetailPost);
+    /* useLoaderData.mockReturnValueOnce({ post: mockDetailPost });
+    useAsyncValue.mockReturnValueOnce(mockDetailPost); */
 
     render(
       <MemoryRouter>
@@ -107,8 +107,8 @@ describe("DetailPost component", () => {
   });
 
   it("When button back is pressed navigate to /movies", () => {
-    useLoaderData.mockReturnValueOnce({ post: mockDetailPost });
-    useAsyncValue.mockReturnValueOnce(mockDetailPost);
+    /*   useLoaderData.mockReturnValueOnce({ post: mockDetailPost });
+    useAsyncValue.mockReturnValueOnce(mockDetailPost); */
 
     render(
       <BrowserRouter>

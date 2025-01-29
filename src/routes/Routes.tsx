@@ -28,7 +28,8 @@ const router = createBrowserRouter(
         }}
       />
     </Route>
-  )
+  ),
+  { basename: "/MovieDB" } // Добавляем basename
 );
 
 export default router;
